@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h2>Join(),Pop()
+            <p id="join"></p>
+            <p id="myfirstpop"></p>
+            <p id="mysecondpop"></p>
+            <script>
+                var vegetables=["Potato","Cauliflower","ladyfinger","tomato"];
+                document.getElementById("join").innerHTML=vegetables.join(' * ');
+                vegetables.pop()
+                document.getElementById("myfirstpop").innerHTML=vegetables;
+                vegetables.push("Cabbage")
+                document.getElementById("mysecondpop").innerHTML=vegetables;
+
+            </script>
+        </h2>
+    </body>
+</html>
